@@ -1,0 +1,9 @@
+This is the Connected Vehicle Reference Subscription application for subscribing to the Connected Vehicle Warehouse
+and writing out the messages received to disk.
+  
+Before starting the application ensure that the values for brokerURL and topic in the config/jms.properties
+match the correct IP for the warehouse and the topic that you would like to subscribe to.
+
+Start the application using provided start_jms_subscriber.* script.
+
+By default, all received messages are written to the output directory.
